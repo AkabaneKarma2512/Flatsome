@@ -1,0 +1,140 @@
+body {
+    font-family: Lato, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Begin footer */
+.footer {
+    background-color: #777777;
+    padding: 5rem 0;
+}
+
+.ft-title {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    color: #f1f1f1;
+    margin-bottom: 3rem;
+}
+
+.ft-desc {
+    color: #f1f1f1;
+}
+
+.ft-social {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    padding: 0;
+}
+
+.ft-social i {
+    font-size: 32px;
+    border-radius: 50px;
+    border: 2px solid #f1f1f1;
+}
+
+.wrap-news {
+    display: flex;
+    gap: 10px;
+    color: #f1f1f1;
+    align-items: center;
+}
+
+.news-time {
+    display: flex;
+    flex-direction: column;
+    /* gap: 5px; */
+    border: 2px solid #f1f1f1;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-latest {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    gap: 10px;
+}
+
+/* warpper */
+.about-item {
+    width: 290px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-thumbnail {
+    width: 100%;
+}
+
+.product-info {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.product-category {
+    text-transform: uppercase;
+    color: rgb(119, 119, 119);
+    font-size: 11px;
+}
+
+.product-title {
+    color: rgb(51, 72, 98);
+    font-size: 15px;
+}
+
+.old-price {
+    color: rgb(51, 72, 98);
+    text-decoration: line-through;
+    font-weight: 400;
+}
+
+.current-price {
+    font-weight: bold;
+    color: #000;
+}
+.section-title-container{
+    margin: 30px 0;
+}
+.section-title-main {
+    border: 2px solid rgba(0, 0, 0, .1);
+    padding: .3em .8em;
+}
+
+.section-title{
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+}
+.section-title b {
+    background-color: rgba(0, 0, 0, .1);
+    display: block;
+    flex: 1;
+    height: 2px;
+}
+
+.section-signup{
+    background-color: #9C9C9C;
+    padding: 5rem 0;
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-signup h2{
+    text-align: center;
+}
